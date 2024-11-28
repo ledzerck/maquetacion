@@ -1,0 +1,70 @@
+/* GENERALES */
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#mailing {
+    background-color: white;
+    margin:  0 auto;
+    width: 600px;
+    height: 200px;
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+    background-color: black;
+    line-height: 0;
+}
+#hacker-news {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* MAIN */
+
+main {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/* Noticias */
+.noticia {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 50%;
+    padding: 25px;
+}
+
+.noticia h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.noticia img {
+    width: 100%;
+}
+
+.noticia p {
+    color: rgb(108, 108, 108);
+}
+
+.noticia .enlace {
+    color: rgb(124, 159, 255);
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(30, 30, 45);
+    padding: 20px 15px;
+    color: white;
+    text-align: center;
+}
